@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background: #2C3A47 ;
+}
+
+.main .heading{
+    font-size: 2vw;
+    color: #eee;
+    padding: 10px;
+}
+
+.main .box {
+  width: 25vw;
+  height: 7vw;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-top: 3px solid #e55039;
+  border-bottom: 3px solid #b71540;
+  border-left: 3px solid #6f1e51;
+  border-right: 3px solid #ffc312;
+  color: #eee;
+  font-size: 1vw;
+  font-weight: 600;
+  gap: 5px;
+}
+
+  .main .heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5vw;
+    margin-bottom: 8px;
+} 
+.main .btn{
+    margin-top: 3%;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+ .btn button{
+    width: 7vw;
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    border: none;
+    color: #eee;
+    
+}
+
+.box #hour{
+    color: #b71540;
+}
+
+.box #sec{
+    color: #e55039;
+}
+.box #min{
+    color: #ffc312;
+}
+.btn .btn1{
+    background: #e55039;
+}
+
+.btn .btn2{
+    background-color: #b71540;
+}
+
+.btn .btn3{
+    background-color: #ffc312;
+}
+
+.btn button:hover{
+    border-top: 3px solid #e55039;
+    border-bottom: 3px solid #b71540;
+    border-left: 3px solid #6f1e51;
+    border-right: 3px solid #ffc312;
+    background: none;
+}
